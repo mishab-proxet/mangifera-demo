@@ -1,0 +1,2 @@
+poetry==1.2.2
+poetry-multiproject-plugin==0.3.3

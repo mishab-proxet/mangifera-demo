@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mangifera_demo_client"
+version = "0.1.0"
+authors = ["Mykhailo Bielan"]
+description = "Mangifera demo client code"
+packages = [{include = "shared", from = "../"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
